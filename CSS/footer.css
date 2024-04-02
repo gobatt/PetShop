@@ -1,0 +1,14 @@
+footer {
+    margin-top: 40px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px rgb(196, 196, 196) solid;
+}
+
+/* Texto do footer */
+footer span {
+    font-size: 0.9em;
+    font-weight: 300;
+}

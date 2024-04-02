@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Define o tamanho do conteudo da página */
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+/* Modifica a direção e cor do texto do conteúdo da página */
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    color: #202020;
+}
+
+/* Muda o tamanho do ícone da página */
+#conteudo img {
+    width: 60px;
+}
+
+/* Muda o tamanho da fonte da página */
+#conteudo p {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+/* Modifica a direção do formulário */
+#cadastro-pet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Muda o tamanho do input e select e coloca margem */
+#cadastro-pet input, select {
+    margin-bottom: 21px;
+    width: 340px;
+}
+
+/* Coloca margem nas labels */
+#cadastro-pet label {
+    margin-bottom: 2px;
+}
+
+/* Muda a direção da seção de castrado */
+#castrado {
+    display: flex;
+    flex-direction: row;
+    margin-top: 7px;
+}
+
+/* Muda o tamanho do input "radio" */
+#castrado input{
+    width: 30px;
+    height: 20px;
+}
+
+/* Coloca margem na label da seção de caastrado */
+#castrado label {
+    margin-right: 27px;
+}
+
+/* Definição dos botões */
+.botao {
+    border-style: none;
+    border-radius: 5px;
+    width: 340px;
+    height: 36px;
+    margin-bottom: 17px;
+    font-size: 19px;
+    padding: 5px;
+}
+
+/* Muda a cor do botão de cadastar */
+#botao-cadastrar {
+    background-color: #BA0A2E;
+    color: #ffffff;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+/* Muda de cor quando o cursor passa pelo botão */
+#botao-cadastrar:hover {
+    background-color: #990825;
+}
+
+/* Muda a cor do botão de voltar */
+#botao-voltar {
+    background-color: #ffffff;
+    color: #202020;
+    font-weight: 400;
+    transition: 0.5s;
+}
+
+/* Muda de cor quando o cursor passa pelo botão */
+#botao-voltar:hover {
+    background-color: #EFEFEF;
+}

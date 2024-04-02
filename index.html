@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./CSS/header.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="./CSS/styleIndex.css">
+    <title>PetShop</title>
+</head>
+
+<body>
+    <header>
+        <div id="parte-de-cima">
+            <a href="./index.html"><img id="logo-petshop" src="./Assets/Header/PetShopLogo.png"
+                    alt="Logo da PetShop"></a>
+
+            <a href="./cadastro.html" id="user"><img class="icone" id="icone-usuario"
+                    src="./Assets/Header/IconeUser.png" alt="Ícone de usuário">Cadastre-se</a>
+
+            <input type="text" id="pesquisar" placeholder="Pesquisar">
+
+            <a href="./pet.html"><img class="icone" src="./Assets/Header/IconeDog.png" alt="Ícone de cachorro"></a>
+
+            <a href=""><img class="icone" src="./Assets/Header/IconeHeart.png" alt="Ícone de coração"></a>
+
+            <a href=""><img class="icone" src="./Assets/Header/IconeCart.png" alt="Ícone de carrinho de compras"></a>
+        </div>
+
+        <div id="parte-de-baixo">
+            <p class="pdb-itens">Produtos</p>
+            <p class="pdb-itens">Serviços</p>
+            <p class="pdb-itens">Promoções</p>
+            <p class="pdb-itens">Lojas</p>
+        </div>
+    </header>
+
+    <div id="conteudo">
+        <div class="container-fluid">
+
+            <div class="col-sm-4" id="div-racao">
+                <p class="titulo-tabela">Rações e Petiscos</p>
+                <table class="tabela-itens" id="tabela-racao">
+                    <tr>
+                        <td>
+                            <img class="img-racao" src="./Assets/RacaoCao1.jpg"
+                                alt="Ração seca de cachorro Pedigree para cães adultos">
+                            <p class="nome-racao">Ração seca Pedigree nutrição essencial para cães adultos 10kg</p>
+                            <p class="preco-racao">R$ 94,90</p>
+                        </td>
+                        <td>
+                            <img class="img-racao" src="./Assets/RacaoCao2.jpg"
+                                alt="Ração seca de cachorro Magnus para cães adultos">
+                            <p class="nome-racao">Ração seca Magnus para cães adultos 15kg</p>
+                            <p class="preco-racao">R$ 122,90</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img class="img-racao" src="./Assets/RacaoCao3.jpg"
+                                alt="Ração úmida de cachorro Pedigree para cães adultos">
+                            <p class="nome-racao">Ração úmida Pedigree para cães adultos 7+ anos 100g</p>
+                            <p class="preco-racao">R$ 2,54</p>
+                        </td>
+                        <td>
+                            <img class="img-racao" src="./Assets/RacaoCao4.jpg"
+                                alt="Petisco de cachorro Keldog para cães">
+                            <p class="nome-racao">Petiscos Keldog bifinho churrasco 500g</p>
+                            <p class="preco-racao">R$ 29,90</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="col-sm-8" id="div-serv-brinq">
+                <p class="titulo-tabela">Serviços</p>
+                <table class="tabela-itens" id="tabela-servicos">
+                    <tr>
+                        <td class="servico">
+                            <a href="./servico.html">
+                                <div class="icone-servico" id="icn-servico1">
+                                    <img class="img-servico" src="./Assets/Servico1.png" alt="Ícone de banho e tosa">
+                                </div>
+                                <div class="texto-servico">
+                                    <p class="titulo-servico">Banho & Tosa</p>
+                                    <p class="desc-servico">Deixe seu pet limpinho e bem cuidado</p>
+                                </div>
+                            </a>
+                        </td>
+                        <td class="servico">
+                            <div class="icone-servico" id="icn-servico2">
+                                <img class="img-servico" src="./Assets/Servico2.png" alt="Ícone de veterinário">
+                            </div>
+                            <div class="texto-servico">
+                                <p class="titulo-servico">Veterinário</p>
+                                <p class="desc-servico">A saúde e felicidade do seu pet em boas mãos</p>
+                            </div>
+                        </td>
+                        <td class="servico">
+                            <div class="icone-servico" id="icn-servico3">
+                                <img class="img-servico" src="./Assets/Servico3.png" alt="Íconde de hospedagem">
+                            </div>
+                            <div class="texto-servico">
+                                <p class="titulo-servico">Hospedagem</p>
+                                <p class="desc-servico">Hospedagem em um ambiente familiar, com muito cuidado e amor</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+                <p class="titulo-tabela">Brinquedos</p>
+                <table class="tabela-itens" id="tabela-brinquedos">
+                    <tr>
+                        <td class="brinquedo">
+                            <div class="div-img-brinquedo">
+                                <img class="img-brinquedo" src="./Assets/Brinquedo1.jpg" alt="Bola mordedora para cães">
+                            </div>
+                            <div>
+                                <p class="nome-brinquedo">Brinquedo mordedor para cães</p>
+                                <p class="preco-brinquedo">R$ 7,50</p>
+                            </div>
+                        </td>
+                        <td class="brinquedo">
+                            <a href="./produto.html">
+                                <div class="div-img-brinquedo">
+                                    <img class="img-brinquedo" src="./Assets/Brinquedo2.jpg"
+                                        alt="Pelúcia de girafa para cães">
+                                </div>
+                                <div>
+                                    <p class="nome-brinquedo" style="color: #202020;">Pelúcia de girafa para cães</p>
+                                    <p class="preco-brinquedo">R$ 34,93</p>
+                                </div>
+                            </a>
+                        </td>
+                        <td class="brinquedo">
+                            <div class="div-img-brinquedo">
+                                <img class="img-brinquedo" src="./Assets/Brinquedo3.jpg"
+                                    alt="Forca com bola de tenis para cães">
+                            </div>
+                            <div>
+                                <p class="nome-brinquedo">Forca com bola de tenis para cães</p>
+                                <p class="preco-brinquedo">R$ 20,99</p>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="brinquedo">
+                            <div class="div-img-brinquedo">
+                                <img class="img-brinquedo" src="./Assets/Brinquedo4.jpg"
+                                    alt="Varinha com refil para gatos">
+                            </div>
+                            <div>
+                                <p class="nome-brinquedo">Brinquedo varinha com refil para gatos</p>
+                                <p class="preco-brinquedo">R$ 45,00</p>
+                            </div>
+                        </td>
+                        <td class="brinquedo">
+                            <div class="div-img-brinquedo">
+                                <img class="img-brinquedo" src="./Assets/Brinquedo5.jpg" alt="Rope bone para cães">
+                            </div>
+                            <div>
+                                <p class="nome-brinquedo">Brinquedo rope bone para cães</p>
+                                <p class="preco-brinquedo">R$ 17,18</p>
+                            </div>
+                        </td>
+                        <td class="brinquedo">
+                            <div class="div-img-brinquedo">
+                                <img class="img-brinquedo" src="./Assets/Brinquedo6.jpg"
+                                    alt="Disco voador para cães pequenos e médios">
+                            </div>
+                            <div>
+                                <p class="nome-brinquedo">Disco voador para cães pequenos e médios</p>
+                                <p class="preco-brinquedo">R$ 72,99</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <span>&copy; Gabriel Gobatto Pereira - 2024 - Todos os direitos reservados.</span>
+    </footer>
+</body>
+
+</html>

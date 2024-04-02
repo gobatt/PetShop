@@ -1,0 +1,83 @@
+header {
+    width: 100%;
+    background-color: #BA0A2E;
+    height: 96px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Parte de cima do header */
+#parte-de-cima {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 8px;
+}
+
+/* Parte de baixo do header */
+#parte-de-baixo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 10px;
+}
+
+/* Define o tamanho e a margem da logo do header */
+#logo-petshop {
+    width: 110px;
+    margin-left: -40px;
+    margin-right: 20px;
+}
+
+/* Define o tamanho e a margem dos icones do header */
+.icone {
+    width: 26px;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+/* Texto "Cadastre-se" */
+#user {
+    margin-right: 20px;
+    align-items: center;
+    display: flex;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* Mudar a cor do "Cadastre-se" para branco */
+header a:link {
+    color: #ffffff;
+}
+
+header a:visited {
+    color: #ffffff;
+}
+
+#icone-usuario {
+    margin-right: 6px;
+}
+
+/* Define o tamanho e a margem da barra de pesquisa */
+#pesquisar {
+    width: 290px;
+    height: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    padding-left: 8px;
+    padding-right: 20px;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+/* Deixa o texto da parte de baixo do header em branco 
+e muda o cursor para quando passa o mouse por cima dele */
+.pdb-itens {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+}

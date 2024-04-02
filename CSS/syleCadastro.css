@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Define o tamanho do conteúdo da página */
+#conteudo {
+    display: flex;
+    height: 85vh;
+}
+
+/* Define o tamanho e onde fica a imagem */
+#img {
+    width: 60%;
+    position: sticky;
+    float: left;
+}
+
+/* Define o tamanho e direção do formulário */
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 40%;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Define o tamanho da logo no formulário */
+#logo {
+    width: 230px;
+    margin-bottom: 20px;
+}
+
+/* Define o tamanho do ícone de usuário no formulário */
+#userCadastro {
+    width: 48px;
+}
+
+/* Define o tamanho do título no formulário */
+#formulario p {
+    font-size: 27px;
+    font-weight: 600;
+    color: #202020;
+    margin-bottom: 20px;
+}
+
+/* Bota margem na label */
+#formulario label {
+    margin-bottom: 2px;
+}
+
+/* Aumneta o tamanho e a margem dos inputs */
+.form-control {
+    width: 370px;
+    margin-bottom: 21px;
+}
+
+/* Definições para os botões */
+.botao {
+    border-style: none;
+    border-radius: 5px;
+    width: 370px;
+    height: 36px;
+    margin-bottom: 12px;
+    margin-top: 15px;
+    font-size: 19px;
+    padding: 5px;
+}
+
+/* Muda a cor do botão de cadastrar */
+#botao-cadastrar {
+    background-color: #BA0A2E;
+    color: #ffffff;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+/* Muda de cor quando o cursor passa pelo botão */
+#botao-cadastrar:hover {
+    background-color: #990825;
+}
+
+/* Muda a cor do botão de voltar */
+#botao-voltar {
+    background-color: #ffffff;
+    color: #202020;
+    font-weight: 400;
+    transition: 0.5s;
+}
+
+/* Muda de cor quando o cursor passa pelo botão */
+#botao-voltar:hover {
+    background-color: #EFEFEF;
+}
+
+/* Tira a margem do footer */
+footer {
+    margin-top: 0px;
+}

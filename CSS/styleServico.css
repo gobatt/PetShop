@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    color: #202020;
+}
+
+/* Define o tamanho do conteudo da página */
+#conteudo {
+    display: flex;
+    height: 85vh;
+}
+
+/* Define o tamanho e onde fica a imagem */
+#img {
+    width: 40%;
+    position: sticky;
+    float: left;
+}
+
+#servico {
+    padding: 35px;
+    display: flex;
+}
+
+/* Definições do título */
+#titulo {
+    color: #000000;
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* Define o tamanho da fonte e até onde ele vai */
+#descricao {
+    font-size: 16px;
+    width: 380px;
+}
+
+/* Definições do preço */
+#preco {
+    font-size: 37px;
+    font-weight: 700;
+    color: #BA0A2E;
+    margin-bottom: 0px;
+    margin-top: 60px;
+}
+
+/* Definições do botão "Agendar" */
+#agendar {
+    border-style: none;
+    border-radius: 8px;
+    width: 380px;
+    height: 60px;
+    margin-bottom: 17px;
+    margin-top: 8px;
+    padding: 6px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #BA0A2E;
+    transition: 0.5s;
+}
+
+/* Muda de cor quando o cursor passa pelo botão */
+#agendar:hover {
+    background-color: #990825;
+}
+
+/* Definição das seções */
+.div-pd {
+    border: 1px rgb(135, 135, 135) solid;
+    border-radius: 10px;
+    padding: 12px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    width: 310px;
+}
+
+/* Aumenta o título das seções */
+.div-pd p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Coloca borda nos inputs de radio e coloca os itens no centro */
+.selecaoPet {
+    border: 1px rgb(135, 135, 135) solid;
+    border-radius: 7px;
+    padding: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+
+/* Diminui e põe margem nas imagens dos inputs de radio */
+.selecaoPet img {
+    width: 40px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+/* Aumenta o input de data */
+#data {
+    width: 100%;
+    height: 40px;
+    border-radius: 7px;
+    border: 1px rgb(135, 135, 135) solid;
+    font-size: 17px;
+}
+
+/* Tira a margem do footer */
+footer {
+    margin-top: 0px;
+}

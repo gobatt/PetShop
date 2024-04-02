@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/header.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="./CSS/stylePet.css">
+    <title>Cadastro Pet - PetShop</title>
+</head>
+
+<body>
+    <header>
+        <div id="parte-de-cima">
+            <a href="./index.html"><img id="logo-petshop" src="./Assets/Header/PetShopLogo.png"
+                    alt="Logo da PetShop"></a>
+
+            <a href="./cadastro.html" id="user"><img class="icone" id="icone-usuario" src="./Assets/Header/IconeUser.png"
+                    alt="Ícone de usuário">Cadastre-se</a>
+
+            <input type="text" id="pesquisar" placeholder="Pesquisar">
+
+            <a href="./pet.html"><img class="icone" src="./Assets/Header/IconeDog.png" alt="Ícone de cachorro"></a>
+
+            <a href=""><img class="icone" src="./Assets/Header/IconeHeart.png" alt="Ícone de coração"></a>
+
+            <a href=""><img class="icone" src="./Assets/Header/IconeCart.png" alt="Ícone de carrinho de compras"></a>
+        </div>
+
+        <div id="parte-de-baixo">
+            <p class="pdb-itens">Produtos</p>
+            <p class="pdb-itens">Serviços</p>
+            <p class="pdb-itens">Promoções</p>
+            <p class="pdb-itens">Lojas</p>
+        </div>
+    </header>
+
+    <div class="mb-3" id="conteudo">
+        <div id="cadastro-pet">
+            <img src="./Assets/IconeCao.png" alt="Ícone de cão">
+
+            <p>Cadastar seu pet</p>
+
+            <label for="nome-pet" class="form-label">Nome do pet</label>
+            <input type="text" class="form-control" id="nome-pet" placeholder="Nome do pet" required autofocus>
+
+            <label for="tipo-pet">Escolha o tipo do pet</label>
+            <select class="form-select" aria-label="Default select example" id="tipo-pet">
+                <option selected>Escolha o tipo do pet</option>
+                <option value="1">Cachorro</option>
+                <option value="2">Gato</option>
+                <option value="3">Coelho</option>
+            </select>
+
+            <label for="">Temperamento do pet</label>
+            <select class="form-select" aria-label="Default select example" id="tipo-pet">
+                <option selected>Temperamento do pet</option>
+                <option value="1">Calmo</option>
+                <option value="2">Agressivo</option>
+                <option value="3">Dorminhoco</option>
+                <option value="4">Brincalhão</option>
+            </select>
+
+            <label>Seu pet é castrado?</label>
+            <div id="castrado">
+                <input type="radio" name="castrado" id="castrado-sim">
+                <label for="castrado-sim">Sim</label>
+
+                <input type="radio" name="castrado" id="castrado-nao">
+                <label for="castrado-nao">Não</label>
+            </div>
+
+            <button class="botao" id="botao-cadastrar" type="submit">Cadastrar pet</button>
+
+            <a href="./index.html"><button class="botao" id="botao-voltar">Voltar</button></a>
+        </div>
+    </div>
+
+    <footer>
+        <span>&copy; Gabriel Gobatto Pereira - 2024 - Todos os direitos reservados.</span>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+#conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #202020;
+}
+
+.container-fluid {
+    display: flex;
+}
+
+.titulo-tabela {
+    font-size: 27px;
+    font-weight: 600;
+    width: fit-content;
+    margin-bottom: 5px;
+}
+
+table {
+    border: 1px rgb(135, 135, 135) solid;
+    border-spacing: 13px;
+    border-radius: 10px;
+}
+
+td {
+    border: 1px rgb(135, 135, 135) solid;
+    border-radius: 10px;
+    padding: 17px;
+    width: fit-content;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+.tabela-itens {
+    padding: 10px;
+}
+
+/* Ração */
+#div-racao {
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+#div-serv-brinq {
+    margin-top: 25px;
+    margin-left: 15px;
+    width: fit-content;
+}
+
+.img-racao {
+    width: 60px;
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+
+.nome-racao {
+    font-size: 11px;
+    width: 100px;
+}
+
+.preco-racao {
+    color: #BA0A2E;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 13px;
+}
+
+/* Serviços */
+#tabela-servicos {
+    margin-bottom: 55px;
+}
+
+.servico {
+    width: 250px;
+}
+
+.icone-servico {
+    width: 74px;
+    height: 74px;
+    border-radius: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-right: 9px;
+}
+
+#icn-servico1 {
+    background-color: rgb(36, 87, 197, 0.45);
+}
+
+#icn-servico2 {
+    background-color: rgb(242, 157, 56, 0.45);
+}
+
+#icn-servico3 {
+    background-color: rgb(249, 15, 69, 0.45);
+}
+
+.img-servico {
+    width: 45px;
+}
+
+.titulo-servico {
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.desc-servico {
+    font-size: 12px;
+}
+
+.servico a , .servico a:visited, .servico a:link {
+    text-decoration: none;
+    color: #202020;
+}
+
+/* Brinquedos */
+.brinquedo {
+    width: 250px;
+    text-decoration: none;
+}
+
+.div-img-brinquedo {
+    float: left;
+    margin-right: 9px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-brinquedo {
+    width: 70px;
+}
+
+.nome-brinquedo {
+    font-size: 14px;
+}
+
+.preco-brinquedo {
+    color: #BA0A2E;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.brinquedo a , .brinquedo a:visited{
+    text-decoration: none;
+}
+
+.nome-brinquedo a:link, .nome-brinquedo a:visited {
+    color:  #202020;
+}
+
+.preco-brinquedo a:link, .preco-brinquedo a:visited {
+    color: #BA0A2E;
+}

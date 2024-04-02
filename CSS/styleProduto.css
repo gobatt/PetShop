@@ -1,0 +1,201 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Muda o tamanho da fonte e margem do caminho */
+#caminho {
+    margin: 25px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+/* Muda a cor do caminho */
+#caminho a, #caminho a:link, #caminho a:visited, #caminho a:hover {
+    text-decoration: none;
+    color: #606060;
+}
+
+/* Muda o tamanho das setas */
+#caminho img {
+    width: 24px;
+}
+
+/* Muda o tamanho da imagem do tamanho */
+#imgProduto {
+    width: 380px;
+    height: 380px;
+}
+
+/* Muda a cor das setas do carrossel de imagems */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgb(118, 118, 118);
+    border-radius: 7px;
+}
+
+/* Coloca os itens da página no centro e muda o cor dos textos */
+#produto {
+    display: flex;
+    justify-content: center;
+    color: #202020;
+    margin-bottom: 105px;
+}
+
+/* Ajusta para o nome do produto ficar do lado do coração */
+#tituloProduto {
+    display: flex;
+}
+
+/* Define a margem da descrição do produto */
+#descProduto {
+    margin-left: 28px;
+}
+
+/* Muda o tamanho do nome do produto */
+#tituloProduto p {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* Muda o tamanho da imagem e muda o cursor quando passa pela imagem */
+#tituloProduto img {
+    width: 40px;
+    height: 40px;
+    margin-left: 28px;
+    cursor: pointer;
+}
+
+/* Deixa as estrelas uma ao lado da outra e coloca margem */
+#estrelasProduto {
+    display: flex;
+    margin-top: 17px;
+}
+
+/* Muda o tamanho da nota do produto */
+#estrelasProduto p {
+    font-size: 23px;
+    margin-right: 14px;
+}
+
+/* Muda o tamanho das estrelas */
+#estrelasProduto img {
+    width: 27px;
+    height: 27px;
+    margin-right: 6px;
+}
+
+/* Muda o tamanho da fonte das informações do produto */
+#infoProduto p {
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 17px;
+    margin-bottom: 6px;
+}
+
+#infoProduto li {
+    font-size: 17px;
+    margin-left: -11px;
+}
+
+#preco-frete {
+    margin-left: 28px;
+}
+
+/* Coloca borda, padding e margem na seção do preço do produto */
+#precoProduto {
+    border: 1px rgb(135, 135, 135) solid;
+    border-radius: 13px;
+    padding: 19px;
+    margin-bottom: 35px;
+}
+
+/* Muda o tamanho e cor da fonte do preço */
+#preco {
+    font-size: 28px;
+    font-weight: 600;
+    color: #BA0A2E;
+    margin-bottom: 0px;
+}
+
+/* Deixa a quantidade e os icones de mais e menos um ao lado do outro */
+#divQuantidade {
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+/* Cria uma borda em volta da quantidade */
+#divQuantidade div {
+    border: 1px rgb(135, 135, 135) solid;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+/* Muda o tamanhgo da fonte da quantidade e coloca margem */
+#divQuantidade p {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+/* Muda o tamanho da imagem e muda o cursor quando passa pela imagem */
+#divQuantidade img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+/* Definições dos botões */
+.botao {
+    border-style: none;
+    border-radius: 5px;
+    background-color: #BA0A2E;
+    color: #ffffff;
+    width: 340px;
+    height: 40px;
+    font-size: 19px;
+    font-weight: 400;
+    padding: 7px;
+    transition: 0.5s;
+}
+
+/* Muda de cor quando passa o mouse pelo botão */
+.botao:hover {
+    background-color: #990825;
+}
+
+/* Define a seção de frete e prazo */
+#freteProduto {
+    border: 1px rgb(135, 135, 135) solid;
+    border-radius: 13px;
+    padding: 19px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Muda o tamanho da fonte da seção */
+#freteProduto p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 11px;
+}
+
+/* Muda o tamanho do input da seção e muda a borda */
+#freteProduto input {
+    border: 1px rgb(135, 135, 135) solid;
+    border-radius: 5px;
+    width: 340px;
+    height: 40px;
+    font-size: 19px;
+    font-weight: 400;
+    padding: 7px;
+    margin-bottom: 23px;
+}
